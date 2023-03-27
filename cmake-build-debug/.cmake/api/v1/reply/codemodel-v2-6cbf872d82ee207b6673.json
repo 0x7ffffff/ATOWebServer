@@ -1,0 +1,230 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "log/tests",
+					"jsonFile" : "directory-log.tests-Debug-3955449e88a9028d03d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "log/tests",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "threadpool/tests",
+					"jsonFile" : "directory-threadpool.tests-Debug-04e35cc34e6acf558916.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "threadpool/tests",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "timer/tests",
+					"jsonFile" : "directory-timer.tests-Debug-a49b94c9656985db66ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "timer/tests",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "memory/tests",
+					"jsonFile" : "directory-memory.tests-Debug-7148807c58edcf7c24f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "memory/tests",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "net/tests",
+					"jsonFile" : "directory-net.tests-Debug-458196f2e3423309c3a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "net/tests",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "MyServer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "buf_test::@90fb4ce086d2fc1a2b81",
+					"jsonFile" : "target-buf_test-Debug-02dbb1eb1429ae903a7e.json",
+					"name" : "buf_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "echo_server::@35c1d567f8d1ec3e5c42",
+					"jsonFile" : "target-echo_server-Debug-1f40422b5b425ea508d6.json",
+					"name" : "echo_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "http_for_bench::@35c1d567f8d1ec3e5c42",
+					"jsonFile" : "target-http_for_bench-Debug-81013d7bb49c976d4746.json",
+					"name" : "http_for_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "log_async_test::@c7e719081be6e644c1c0",
+					"jsonFile" : "target-log_async_test-Debug-6a60a4dcd2404b6997a1.json",
+					"name" : "log_async_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "log_level_test::@c7e719081be6e644c1c0",
+					"jsonFile" : "target-log_level_test-Debug-81a445b463b514fbfdbe.json",
+					"name" : "log_level_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "log_sync_test::@c7e719081be6e644c1c0",
+					"jsonFile" : "target-log_sync_test-Debug-d3d2b317bd8c1d23b55f.json",
+					"name" : "log_sync_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mem_test::@90fb4ce086d2fc1a2b81",
+					"jsonFile" : "target-mem_test-Debug-7d4b8f581273dfd894d5.json",
+					"name" : "mem_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pr_test::@c7e719081be6e644c1c0",
+					"jsonFile" : "target-pr_test-Debug-b3cb1c955884015d9701.json",
+					"name" : "pr_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "q_test::@c7e719081be6e644c1c0",
+					"jsonFile" : "target-q_test-Debug-6fb0e89edb4772079582.json",
+					"name" : "q_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "threadpool_test::@149fa5c33e5bb37942fe",
+					"jsonFile" : "target-threadpool_test-Debug-bdf4b166dd8f9d152efd.json",
+					"name" : "threadpool_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "timer_test::@5ff3b2dbb9785ef7fb82",
+					"jsonFile" : "target-timer_test-Debug-43f51435505528fe1dcb.json",
+					"name" : "timer_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/0x7f/Documents/HighPerformanceConcurrentServer/cmake-build-debug",
+		"source" : "/Users/0x7f/Documents/HighPerformanceConcurrentServer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

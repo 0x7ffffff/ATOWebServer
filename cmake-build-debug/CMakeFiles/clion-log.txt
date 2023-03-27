@@ -1,0 +1,14 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/0x7f/Documents/HighPerformanceConcurrentServer
+-- The CXX compiler identification is AppleClang 13.0.0.13000029
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_CXX_FLAGS = 
+installing echo_client...
+cp: directory ../../../build/Debug/net/tests does not exist
+chmod: ../../../build/Debug/net/tests/echo_client.sh: No such file or directory
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/0x7f/Documents/HighPerformanceConcurrentServer/cmake-build-debug
